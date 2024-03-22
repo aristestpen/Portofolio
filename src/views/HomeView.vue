@@ -1,7 +1,7 @@
 <template>
   <div>
     <main class="mt-10 md:mt-1 flex flex-col-reverse gap-8 items-center md:flex-row md:gap-16 md:justify-center min-h-[65vh] md:min-h-[80vh] relative">
-      <div id="lottie-animation" class="absolute inset-0 md:inset-auto md:ml-0 z-10 md:z-0"></div> 
+      <div id="lottie-animation" class="absolute inset-0 md:inset-auto md:ml-0 z-10 md:z-0 fadein-up"></div> 
       <div class="space-y-2 text-center md:text-left px-10 z-10">
         <p class="text-amber-200">Hello World, I'm</p>
         <h1 class="text-4xl font-bold md:text-5xl text-white fadein-up">Aris Heryana</h1>
