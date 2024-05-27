@@ -21,8 +21,8 @@
 </template>
 
 <script>
-import lottie from 'lottie-web';
-import ramadhan from '@/assets/ramadhan.json'
+// import lottie from 'lottie-web';
+// import ramadhan from '@/assets/ramadhan.json'
 
 export default {
   name: 'HomeView',
@@ -37,23 +37,23 @@ export default {
   },
   mounted() {
     this.$nextTick(() => {
-      this.initLottieAnimation();
+      // this.initLottieAnimation();
       this.tick();
     });
   },
   methods: {
-    initLottieAnimation(){
-      const animationContainer = document.getElementById('lottie-animation');
-      lottie.loadAnimation({
-        container: animationContainer,
-        renderer: 'svg',
-        loop: true,
-        autoplay: true,
-        animationData:ramadhan,
-      })
-      animationContainer.style.width = '300px'; // Set width dynamically
-      animationContainer.style.height = '300px'; 
-    },
+    // initLottieAnimation(){
+    //   const animationContainer = document.getElementById('lottie-animation');
+    //   lottie.loadAnimation({
+    //     container: animationContainer,
+    //     renderer: 'svg',
+    //     loop: true,
+    //     autoplay: true,
+    //     animationData:ramadhan,
+    //   })
+    //   animationContainer.style.width = '300px'; // Set width dynamically
+    //   animationContainer.style.height = '300px'; 
+    // },
     tick() {
       let typewriter = this.$refs.typewriter;
 

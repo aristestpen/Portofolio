@@ -2,8 +2,9 @@
   <!-- component -->
   <!-- This is an example component -->
   <div class="max-w-7xl mx-auto flex flex-col relative">
-
+    
     <nav class="max-w-7xl px-5 md:fixed top-0 z-[98] w-screen backdrop-blur-md bg-[#121212] bg-opacity-80">
+      <save />
       <div class="container mx-auto flex flex-wrap items-center justify-between">
         <button @click="redirectToHome" class="flex">
           <span class="self-center text-lg text-[#ffdb70] font-semibold whitespace-nowrap fadein-bot hover:text-amber-100">TestpenCoding</span>
@@ -50,7 +51,9 @@
 </template>
 
 <script>
+import save from './views/support_palestina.vue'
 export default {
+  components: {save},
   methods: {
     redirectToHome() {
       this.$router.push('/')
