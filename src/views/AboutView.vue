@@ -19,7 +19,7 @@ export default {
         {
           id: 3,
           name: 'Java',
-          imageUrl: 'https://i.ibb.co/0J99LrF/java.png',
+          imageUrl: 'https://i.ibb.co.com/cwf2k9J/java-1.png',
           status: 'Beginner'
         },
         {
@@ -31,19 +31,19 @@ export default {
         {
           id: 5,
           name: 'Kotlin',
-          imageUrl: 'https://i.ibb.co/x6352xQ/icons8-kotlin-48.png',
+          imageUrl: 'https://i.ibb.co.com/w0jbnG3/kotlin-1-logo-png-transparent.png',
           status: 'Intermediate'
         },
         {
           id: 6,
           name: 'Flutter',
-          imageUrl: 'https://i.ibb.co/d4M7qX3/icons8-flutter-48.png',
+          imageUrl: 'https://i.ibb.co.com/BqjRvN4/flutter.jpg',
           status: 'Intermediate'
         },
         {
           id: 7,
           name: 'Figma',
-          imageUrl: 'https://i.ibb.co/k4xCtZc/icons8-figma-48.png',
+          imageUrl: 'https://i.ibb.co.com/0Jtxy6b/figma.jpg',
           status: 'Beginner'
         },
         // {
@@ -100,7 +100,7 @@ export default {
         class="text-sm md:text-lg text-justify flex flex-col gap-4 md:flex-row md:gap-8 md:justify-left md:items-center">
         <div class="flex justify-center">
           <img class="w-9/12 rounded-full mb-3 fadein-up"
-            src="https://i.ibb.co/RTFf1wb/arise.jpg" alt="Foto">
+            src="https://i.ibb.co.com/BfgQ0cv/arise.jpg" alt="Foto">
         </div>
         <div class="md:w-7/12">
           <p class="mb-3 md:mb-7 fadein-left fadeins-1">

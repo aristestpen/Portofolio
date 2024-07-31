@@ -14,7 +14,7 @@
         <br>
       </div>
       <div class="flex justify-center md:justify-start fadein-right">
-        <img alt="avatar" fetchpriority="high" width="300" height="300" decoding="async" data-nimg="1" class="w-10/12 md:h-auto rounded-full border-4 border-amber-200 pict" src="https://i.ibb.co/RTFf1wb/arise.jpg">
+        <img alt="avatar" fetchpriority="high" width="300" height="300" decoding="async" data-nimg="1" class="w-10/12 md:h-auto rounded-full border-4 border-amber-200 pict" src="https://i.ibb.co.com/BfgQ0cv/arise.jpg">
       </div>
     </main>
   </div>
