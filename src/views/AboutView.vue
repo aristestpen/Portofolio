@@ -46,6 +46,12 @@ export default {
           imageUrl: 'https://i.ibb.co.com/0Jtxy6b/figma.jpg',
           status: 'Beginner'
         },
+        {
+          id: 8,
+          name: 'Dart',
+          imageUrl: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/dart/dart-original.svg',
+          status: 'Intermediate'
+        }
         // {
         //   id: 8,
         //   name: 'AlpineJS',
@@ -90,7 +96,7 @@ export default {
 
       <header>
         <div class="text-2xl font-bold text-white mb-5 fadein-bot title-section flex items-center">
-          About Me &nbsp;
+          About Me &nbsp; 
           <div class="h-[1px] w-32 bg-amber-200 md:w-96 aos-init aos-animate" data-aos="zoom-in-left"
             data-aos-duration="600"></div>
         </div>
@@ -99,24 +105,27 @@ export default {
       <section
         class="text-sm md:text-lg text-justify flex flex-col gap-4 md:flex-row md:gap-8 md:justify-left md:items-center">
         <div class="flex justify-center">
-          <img class="w-9/12 rounded-full mb-3 fadein-up"
-            src="https://i.ibb.co.com/BfgQ0cv/arise.jpg" alt="Foto">
+          <img class="w-[250px] h-[250px] rounded-full mb-3 fadein-up object-cover"
+            src="https://i.postimg.cc/dVTcBNXN/DSCF4280-1.png" alt="Foto">
         </div>
         <div class="md:w-7/12">
           <p class="mb-3 md:mb-7 fadein-left fadeins-1">
-            &nbsp; &nbsp; &nbsp; Hello, I'm Aris Heryana, a Mobile Developer based in Cilacap, Central Java. With 2 years of experience, I see programming not just as a job but as an art with aesthetic value.
+            &nbsp; &nbsp; &nbsp; Hi, I’m Aris Heryana Mobile Developer from Purbalingga, Central Java. With over 3 years of experience in mobile application development, I see programming as a form of digital art. To me, an app shouldn’t just work — it should be enjoyable to use, thoughtfully crafted, and visually meaningful.
           </p>
           <p class="mb-3 fadein-left fadeins-2">
-            &nbsp; &nbsp; &nbsp; My focus is on creating functional and user-friendly applications with a personal touch. I believe in making your app both attractive and easy to use, ensuring it conveys your message and identity creatively.If you're looking for a Mobile Developer who brings a blend of technical expertise and artistic flair to your projects, feel free to get in touch using the listed contact.
+            &nbsp; &nbsp; &nbsp; I specialize in developing Android and Flutter applications that are fast, intuitive, and tailored to each project's unique goals. Every project I take on is more than just code — it's a creative expression, built with care and attention to detail.Let’s build apps that not only function flawlessly, but leave a lasting impression.
           </p>
-          <div class="mt-5 flex gap-8">
+          <div class="mt-5 flex gap-4 flex-wrap">
             <a target="_blank" href="https://drive.google.com/file/d/1q3itJeIF20VHPZXixVJ1PnP13rJaSn7O/view?usp=sharing">
               <button class="h-10 bg-red-800 rounded-sm px-4">Download CV</button>
             </a>
-          <a target="_blank" href="mailto:aristestpen03@gmail.com">
-            <button class="h-10 bg-[#ffdb70] rounded-sm px-4 text-black">Contact Me</button>
-          </a>
-        </div>
+            <a target="_blank" href="mailto:aristestpen03@gmail.com">
+              <button class="h-10 bg-[#ffdb70] rounded-sm px-4 text-black">Contact Me</button>
+            </a>
+            <a target="_blank" href="https://www.linkedin.com/in/arisheryana">
+              <button class="h-10 bg-blue-600 rounded-sm px-4 text-white">Connect Me</button>
+            </a>
+          </div>
         </div>
     
 

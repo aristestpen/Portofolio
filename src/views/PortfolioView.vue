@@ -17,7 +17,7 @@ export default {
           id: 2,
           name: 'UI Mobile',
           imageUrl: 'ui-akost',
-          status: 'UI Mobile Apps',
+          status: 'UI Mobile Apps design for accommodation booking platform with modern and user-friendly interface.',
           tech: 'Figma',
           github: 'null',
           demo: 'null'
@@ -26,7 +26,7 @@ export default {
           id: 3,
           name: 'Web Aher Store',
           imageUrl: 'madu-full',
-          status: 'This website provides in-depth information about BJ honey, covering aspects such as health benefits, production processes, honey varieties, and optimal consumption methods.',
+          status: 'This website provides comprehensive information about BJ honey, covering health benefits and production processes.',
           tech: 'Bootstrap',
           github: 'null',
           demo: 'null'
@@ -35,10 +35,19 @@ export default {
           id: 4,
           name: 'Komtim',
           imageUrl: 'komtim',
-          status: 'Simplifies finding and hiring experienced talents to help manage your business.',
+          status: 'Komtim simplifies finding and hiring experienced talents to help manage your business efficiently and effectively.',
           tech: 'Mobile Development',
           github: 'null',
           demo: 'https://play.google.com/store/apps/details?id=id.android.kmpartner.production'
+        },
+        {
+          id: 5,
+          name: 'Mitra Komtim',
+          imageUrl: 'mitra-komtim',
+          status: 'Mitra Komtim is an Indonesian Human Resource Information System (HRIS) designed to simplify HR processes efficiently.',
+          tech: 'Mobile Development',
+          github: 'null',
+          demo: 'https://play.google.com/store/apps/details?id=id.komerce.mitrakomtim&hl=id'
         }
       ]
     };
@@ -62,9 +71,9 @@ export default {
           <div class="grid grid-cols-1 gap-4 pb-32 md:grid-cols-3 md:gap-3 xl:grid-cols-3 xl:gap-3 2xl:gap-5 fade-zoom-in">
             <div v-for="item in items" :key="item.id">
               <div
-                class="item-card flex flex-col items-center gap-2 rounded bg-[#1e1e1f] hover:bg-[#282828] border border-[#383838] rounded-xl text-amber-50 md:gap-3 px-5 py-5 lg:px-5 ">
-                <div class="flex h-12 w-12 items-center justify-center p-0 h-full w-full lg:p-0 zoom-in">
-                  <img alt="HTML" loading="lazy" decoding="async" data-nimg="1" class="drop-shadow-xl rounded rounded-xl"
+                class="item-card flex flex-col items-center gap-2 rounded bg-[#1e1e1f] hover:bg-[#282828] border border-[#383838] rounded-xl text-amber-50 md:gap-3 px-5 py-5 lg:px-5 h-full">
+                <div class="flex items-center justify-center p-0 w-full h-48 lg:p-0 zoom-in">
+                  <img alt="Portfolio" loading="lazy" decoding="async" data-nimg="1" class="portfolio-image drop-shadow-xl rounded rounded-xl w-full h-full object-cover"
                     :src="'/img/portfolio-' + item.imageUrl + '.png'">
                 </div>
                 <div class="w-full flex flex-col gap-2 items-center text-sm md:text-base lg:text-lg">
@@ -107,6 +116,18 @@ export default {
 </div></template>
 
 <style>
+.item-card {
+  min-height: 220px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.portfolio-image {
+  height: 180px;
+  width: 100%;
+  object-fit: cover;
+  object-position: center;
+}
 .item-card:hover {
   transition: transform 0.3s ease;
   transform: translateY(-8px);
