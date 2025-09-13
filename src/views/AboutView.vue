@@ -113,10 +113,10 @@ export default {
             &nbsp; &nbsp; &nbsp; Hi, I’m Aris Heryana Mobile Developer from Purbalingga, Central Java. With over 3 years of experience in mobile application development, I see programming as a form of digital art. To me, an app shouldn’t just work — it should be enjoyable to use, thoughtfully crafted, and visually meaningful.
           </p>
           <p class="mb-3 fadein-left fadeins-2">
-            &nbsp; &nbsp; &nbsp; I specialize in developing Android and Flutter applications that are fast, intuitive, and tailored to each project's unique goals. Every project I take on is more than just code — it's a creative expression, built with care and attention to detail.Let’s build apps that not only function flawlessly, but leave a lasting impression.
+            &nbsp; &nbsp; &nbsp; I specialize in developing Android and Flutter applications that are fast, intuitive, and tailored to each project's unique goals. Every project I take on is more than just code — it's a creative expression, built with care and attention to detail. Let’s build apps that not only function flawlessly, but leave a lasting impression.
           </p>
           <div class="mt-5 flex gap-4 flex-wrap">
-            <a target="_blank" href="https://drive.google.com/file/d/1q3itJeIF20VHPZXixVJ1PnP13rJaSn7O/view?usp=sharing">
+            <a target="_blank" href="https://drive.google.com/file/d/1f0y9bwheWbsxuvfSPzzmhDgpSVKMOAi7/view?usp=sharing">
               <button class="h-10 bg-red-800 rounded-sm px-4">Download CV</button>
             </a>
             <a target="_blank" href="mailto:aristestpen03@gmail.com">
