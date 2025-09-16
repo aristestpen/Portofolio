@@ -14,7 +14,7 @@
         <br>
       </div>
       <div class="flex justify-center md:justify-start fadein-right">
-        <img alt="avatar" fetchpriority="high" width="150" height="150" decoding="async" data-nimg="1" class="w-[150px] h-[150px] md:w-[150px] md:h-[150px] rounded-full border-4 border-amber-200 pict object-cover" src="https://i.postimg.cc/dVTcBNXN/DSCF4280-1.png">
+        <img alt="avatar" fetchpriority="high" width="150" height="150" decoding="async" data-nimg="1" class="w-[150px] h-[150px] md:w-[150px] md:h-[150px] rounded-full border-4 border-amber-200 pict object-cover" src="/img/avatar.png">
       </div>
     </main>
   </div>

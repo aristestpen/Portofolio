@@ -106,7 +106,7 @@ export default {
         class="text-sm md:text-lg text-justify flex flex-col gap-4 md:flex-row md:gap-8 md:justify-left md:items-center">
         <div class="flex justify-center">
           <img class="w-[250px] h-[250px] rounded-full mb-3 fadein-up object-cover"
-            src="https://i.postimg.cc/dVTcBNXN/DSCF4280-1.png" alt="Foto">
+            src="/img/avatar.png" alt="Foto">
         </div>
         <div class="md:w-7/12">
           <p class="mb-3 md:mb-7 fadein-left fadeins-1">
